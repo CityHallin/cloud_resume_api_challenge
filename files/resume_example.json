@@ -1,0 +1,141 @@
+{
+  "id": "$partitionKey",
+  "basics": {
+    "name": "TEMPLATE",
+    "label": "LABEL_NAME",
+    "image": "IMAGE_URL",
+    "url": "URL",
+    "github": "GITHUB_URL",
+    "summary": "SUMMARY"
+  },
+  "work": [      
+      {
+      "name": "ORGANIZATION_NAME0",
+      "position": "POSITION_TITLE",
+      "url": "https://www.BUSINESS_NAME[.]com",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",        
+      "highlights": [
+        "HIGHLIGHT0",
+        "HIGHLIGHT1"
+      ]
+    },
+    {
+      "name": "ORGANIZATION_NAME1",
+      "position": "POSITION_TITLE",
+      "url": "https://www.BUSINESS_NAME[.]com",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",        
+      "highlights": [
+        "HIGHLIGHT0",
+        "HIGHLIGHT1"
+      ]
+    }
+    ],
+  "volunteer": [
+    {
+      "organization": "VOLUNTEER_ORGANIZATION_NAME0",
+      "position": "POSITION_TITLE",
+      "url": "https://www.VOLUNTEER_NAME[.]com",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "summary": "SUMMARY"
+    },
+    {
+      "organization": "VOLUNTEER_ORGANIZATION_NAME1",
+      "position": "POSITION_TITLE",
+      "url": "https://www.VOLUNTEER_NAME[.]com",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "summary": "SUMMARY"
+    }
+  ],
+  "education": [
+    {
+      "institution": "SCHOOL_NAME0",
+      "area": "MAJOR_NAME",
+      "studyType": "ACCREDITATION",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "gpa": "GPA"
+    },
+    {
+      "institution": "SCHOOL_NAME1",
+      "area": "MAJOR_NAME",
+      "studyType": "ACCREDITATION",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM",
+      "gpa": "GPA"
+    }
+  ],
+  "awards": [
+    {
+      "title": "AWARD_NAME0",
+      "date": "YYYY-MM",
+      "awarder": "ORGANIZATION_NAME"
+    },
+    {
+      "title": "AWARD_NAME1",
+      "date": "YYYY-MM",
+      "awarder": "ORGANIZATION_NAME"
+    }
+  ],
+  "skills": [
+    {
+      "name": "SKILL_NAME0",
+      "keywords": [
+        "KEYWORD0",
+        "KEYWORD1"
+      ]
+    },
+    {
+      "name": "SKILL_NAME1",
+      "keywords": [
+        "KEYWORD0",
+        "KEYWORD1"
+      ]
+    }    
+  ],
+  "interests": [
+    {
+      "name": "INTEREST_NAME0",
+      "keywords": [
+        "KEYWORD0",
+        "KEYWORD1"
+      ]
+    },
+    {
+      "name": "INTEREST_NAME1",
+      "keywords": [
+        "KEYWORD0",
+        "KEYWORD1"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "REF_NAME0",
+      "email": "REF_EMAIL",
+      "phone": "REF_PHONE_NUMBER"
+    },
+    {
+      "name": "REF_NAME1",
+      "email": "REF_EMAIL",
+      "phone": "REF_PHONE_NUMBER"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PROJECT_NAME0",
+      "description": "PROJECT_DESCRIPTION",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM"       
+    },
+    {
+      "name": "PROJECT_NAME1",
+      "description": "PROJECT_DESCRIPTION",
+      "startDate": "YYYY-MM",
+      "endDate": "YYYY-MM"       
+    }
+  ]
+}
