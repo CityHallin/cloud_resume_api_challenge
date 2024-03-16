@@ -48,7 +48,7 @@ This project is based on the [Cloud Resume API Challenge](https://cloudresumeapi
     - Entra Tenant ID
     - Azure Subscription ID
     
-- An initial Resource Group and Storage Account will need to be created in order to hold the Terraform state files, as well as GitHub Secrets. Run the PowerShell script **.\files\initial_setup.ps1** from the locally cloned repo on your local machine to help with this process. The initial_setup.ps1 script:
+- An initial Resource Group and Storage Account will need to be created in order to hold the Terraform state files, as well as GitHub Secrets. Run the PowerShell script [initial_setup.ps1](https://github.com/CityHallin/cloud_resume_api_challenge/blob/main/files/initial_setup.ps1) from the locally cloned repo on your local machine to help with this process. The initial_setup.ps1 script:
     -  Will prompt you for the information below:
         - Entra App Registration Application Client ID
         - Entra App Registration Application Client Secret
@@ -64,7 +64,7 @@ This project is based on the [Cloud Resume API Challenge](https://cloudresumeapi
 
 > Example of the initial_setup.ps1 run:
 
-```powershell
+```
 PS D:\repos\cloud_resume_api_challenge\files> .\initial_setup.ps1
 
 Adding default parameters
@@ -130,9 +130,9 @@ PS D:\repos\cloud_resume_api_challenge>
 <img src="./readme_files/actions.png" width="800px">
 <br />
 
-- Once the GitHub Action is complete, next we need to populate your CosmosDB database with a document item of your resume. Create a JSON file of your resume. You can use the template from this repo as guidance: **.\files\resume_example.json**
+- Once the GitHub Action is complete, next we need to populate your CosmosDB database with a document item of your resume. Create a JSON file of your resume. You can use the template from this repo as guidance: [resume_example.json](https://github.com/CityHallin/cloud_resume_api_challenge/blob/main/files/resume_example.json)
 
-- Run the **.\files\create_database_item.ps1** script from this repo to add a document item to your CosmosDB. The create_database_item.ps1 script:
+- Run the [create_database_item.ps1](https://github.com/CityHallin/cloud_resume_api_challenge/blob/main/files/create_database_item.ps1) script from this repo to add a document item to your CosmosDB. The create_database_item.ps1 script:
     -  Will prompt you for the information below:
         - CosmosDB Account Name: Grab this information from the Azure Portal. 
         - CosmosDB Database Name: This project defaults to using the name **resume**. 
@@ -140,11 +140,11 @@ PS D:\repos\cloud_resume_api_challenge>
         - CosmosDB Account Access Key: Grab the Read/Write access key from your CosmosDB account via the Azure Portal.
         - Folder path to the JSON file on your local machine it will upload to the CosmosDB
 
-```powershell
+```
 PS D:\repos\cloud_resume_api_challenge\files> .\create_database_item.ps1
 
 Enter CosmosDB Account Name (not URL, just resource name)
- : crac-dev-cdb
+ : azrac-dev-cdb
 
 Enter CosmosDB Database Name
  : resume
@@ -185,7 +185,7 @@ PS D:\repos\cloud_resume_api_challenge1>
 - Once you've uploaded your JSON resume item to CosmosDB, you're ready to test out your resume API. Use the format below for the URL and paste it into a browser. This project uses a query parameter called **name** as it allows you to display different profiles by searching the name field of the JSON. 
 
 ```
-https://<APIM_NAME>.azure-api.net/v1/resume?name=<YOUR_NAME>. 
+https://<APIM_NAME>.azure-api.net/v1/resume?name=<YOUR_NAME>
 ```
 
 <br />
@@ -208,3 +208,4 @@ https://<APIM_NAME>.azure-api.net/v1/resume?name=<YOUR_NAME>.
 <br />
 <img src="./readme_files/rate_limit.png" width="800px">
 <br />
+
