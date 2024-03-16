@@ -26,6 +26,8 @@ This project is based on the [Cloud Resume API Challenge](https://cloudresumeapi
 - PowerShell
 - Terraform
 
+> I purposely left certain information exposed in the Action logs so people can see more details for learning purposes. I have already remove or updated all of the Azure resources, IPs, and other pieces of data. 
+
 ## Initial Setup <a name="initialsetup"></a>
 
 > These initial tasks just need to be run once at the very beginning of the project in order to set up some dependencies in your GitHub Repo.
