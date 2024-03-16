@@ -197,6 +197,11 @@ https://<APIM_NAME>.azure-api.net/v1/resume?name=<YOUR_NAME>
 <img src="./readme_files/url_temp.png" width="800px">
 <br />
 
+- An example is my personal Resume API URL below:
+```
+https://api.cityhallin.com/v1/resume?name=cityhallin
+```
+
 ## Other Information <a name="other"></a>
 
 - This project repo just holds files for the Azure Function App, pipeline, utility PowerShell scripts, and instructions. The bulk of the Terraform is located in another of my repos called [Terraform_Modules](https://github.com/CityHallin/terraform_modules).
